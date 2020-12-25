@@ -179,6 +179,14 @@ export const FoodTable = () => {
                     onChange={(e) => setDescription(e.target.value)}
                   />
                 </Form.Group>
+                <Form.Group controlId="date">
+                  <Form.Label>Select Date</Form.Label>
+                  <Form.Control
+                    type="date"
+                    name="date"
+                    placeholder="Date of Birth"
+                  />
+                </Form.Group>
               </Form>
             </Modal.Body>
             <Modal.Footer>
