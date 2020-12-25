@@ -187,6 +187,7 @@ export const FoodTable = () => {
                     type="date"
                     name="date"
                     placeholder="Date of Birth"
+                    onChange={(e) => setDate(e.target.value)}
                   />
                 </Form.Group>
               </Form>
