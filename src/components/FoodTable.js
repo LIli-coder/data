@@ -7,7 +7,7 @@ export const FoodTable = () => {
   const [showModal, setShow] = useState(false);
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
-  const [date, setDate] = useState('');
+   const [date, setDate] = useState([YYYY, MM, DD]);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
